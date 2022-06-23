@@ -1,0 +1,384 @@
+body{
+  font-family: "Garamond", Georgia, serif;
+  background-color: white;
+}
+
+img{
+  z-index: 0;
+}
+
+img:hover{
+  opacity: 0.7;
+}
+
+.header{
+  z-index: 1;
+}
+
+p.numCart{
+  color: #333333;
+  z-index: 2;
+  font-size: 15px;
+  font-weight: bold;
+  position: absolute;
+  top: 0px;
+  right: 53px;
+  width: 15px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 10px;
+}
+
+p.numCart :hover{
+  opacity: 0.5;
+}
+
+
+nav.header{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 45px;
+  padding-top: 20px;
+  text-align: right;
+  background-color: white;
+}
+
+div.nav-links{
+  padding-right: 50px;
+  background-color: white;
+}
+
+img.icon{
+  object-fit: cover;
+  position: absolute;
+  right: 50px;
+  width: 25px;
+  height: 25px;
+  margin-left: -15px;
+}
+
+img.hamburger{
+  object-fit: cover;
+  position: absolute;
+  right: 100px;
+  width: 25px;
+  height: 25px;
+  margin-left: -15px;
+}
+
+a{
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  color: black;
+  opacity: 0.8;
+  text-decoration: none;
+  padding-right: 50px;
+}
+
+a.navbar{
+  height: 40px;
+}
+
+a.theme{
+  position: absolute;
+  font-size: 15px;
+  float: left;
+  padding-left: 68px;
+}
+
+img.theme{
+  padding-top: 5px;
+  width: 17px;
+  height: 17px;
+  float: left;
+  padding-left: 50px;
+}
+
+a:hover{
+  opacity: 0.5;
+}
+
+a:active{
+  opacity: 1;
+  text-decoration: underline;
+}
+
+a:visited{
+  opacity: 0.8;
+}
+
+a:focus{
+  opacity: 1;
+  text-decoration: underline;
+}
+
+a.current{
+  opacity: 1;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+div.titletext{
+  color: white;
+  text-align: center;
+  height: 340px;
+  width: 100%;
+  padding-top: 263px;
+  background: rgba(0, 0, 0, 0.5);
+  line-height: 60%;
+  font-size: 20px;
+}
+
+div.titlecontainer {
+  background-image: url("pics/home.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+h1.titletext{
+  margin-top: -10px;
+  font-size: 64px;
+}
+
+p.titletext{
+  padding-top: 30px;
+}
+
+p.quote{
+  font-weight: bold;
+}
+
+div.aboutme{
+  padding-left: 119px;
+  max-height: 400px;
+  max-width: 80%;
+  width: 80%;
+  margin: auto;
+}
+
+h2{
+  display: block;
+  padding-top: 200px;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+p.abouttext{
+  font-size: 20px;
+  margin-top: -10px;
+  width: 30%;
+  display: inline-block;
+  line-height: 120%;
+}
+
+img.aboutus{
+  position: absolute;
+  object-fit: cover;
+  top: 750px;
+  right: 15%;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+}
+
+div.landscapes{
+  height: 400px;
+  padding-top: 200px;
+}
+
+div.landscapestext{
+  width: 40%;
+  text-align: center;
+  float: right;
+}
+
+img.landscapes{
+  position: absolute;
+  margin-top: 100px;
+  right: 39.3%;
+  width: 60%;
+  height: 550px;
+  object-fit: cover;
+}
+
+div.portraits{
+  height: 400px;
+  padding-top: 200px;
+}
+
+div.portraitstext{
+  text-align: center;
+  width: 40%;
+}
+
+img.portraits{
+  position: absolute;
+  top: 1950px;
+  left: 39.3%;
+  width: 60%;
+  height: 550px;
+  object-fit: cover;
+  margin-bottom: 500px;
+}
+
+button{
+  margin-top: -20px;
+  margin: auto;
+  font-size: 25px;
+  width: 130px;
+  height: 40px;
+  font-family: "Garamond", Georgia, serif;
+  border-radius: 20px;
+  border: 1.5px solid black;
+  text-align: center;
+  background: white;
+}
+
+button.shop{
+  border: 1.5px solid white;
+  color: white;
+  background: rgba(0,0,0,0.1);
+}
+
+button:hover{
+  opacity: 0.5;
+}
+
+button:active{
+  opacity: 1;
+  text-decoration: underline;
+}
+
+button:focus{
+  opacity: 1;
+  text-decoration: underline;
+}
+
+button:visited{
+  opacity: 0.8;
+}
+
+div.shopcontainer{
+  margin-top: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  display: block;
+  align-content: center;
+  text-align: center;
+  background-image: url("pics/shoppreview.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+div.portraitsShrink{
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  display: block;
+  align-content: center;
+  text-align: center;
+  background-image: url("pics/chonburi5.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+div.landscapesShrink{
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  display: block;
+  align-content: center;
+  text-align: center;
+  background-image: url("pics/Jungfraujoch.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+div.shoptext{
+  margin-bottom: 30px;
+  color: white;
+  height: 500px;
+  background: rgba(0, 0, 0, 0.45);
+}
+
+@keyframes fade-in {
+	0% {
+		opacity: 0;
+    transform: translateY(20px);
+	}
+	100% {
+		opacity: 1;
+    transform: translateY(0px);
+	}
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .movein-animation {
+    animation-name: fade-in;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+  }
+}
+
+footer{
+  margin: auto;
+  width: 100%;
+  color: white;
+  height: 270px;
+  padding-top: 30px;
+  background-color: #333333;
+}
+
+hr.footer{
+  margin-top: -1px;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+h3{
+  font-size: 28px;
+  margin-bottom: 4px;
+}
+
+h3.links{
+  margin-bottom: -5px;
+}
+
+hr{
+  float:left;
+  border-top: 1px;
+  width: 100px;
+  border-color: white;
+}
+
+div[class^="footer"]{
+  float: left;
+  width: 30%;
+  padding-left: 119px;
+  padding-top: 3px;
+}
+
+div[class*="links"]{
+  float: right;
+  width: 30%;
+}
+
+div[class*="contact"]{
+  line-height: 50%;
+}
+
+a.footer{
+  line-height: 180%;
+  color: white;
+  font-size: 16px;
+}

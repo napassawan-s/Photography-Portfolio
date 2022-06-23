@@ -1,0 +1,295 @@
+body{
+  font-family: "Garamond", Georgia, serif;
+  background-color: white;
+}
+
+img{
+  z-index: 0;
+}
+
+img:hover{
+  opacity: 0.7;
+}
+
+.header{
+  z-index: 1;
+}
+
+p.numCart{
+  color: #333333;
+  z-index: 2;
+  font-size: 15px;
+  font-weight: bold;
+  position: absolute;
+  top: 0px;
+  right: 53px;
+  width: 15px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 10px;
+}
+
+p.numCart :hover{
+  opacity: 0.5;
+}
+
+
+nav.header{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 45px;
+  padding-top: 20px;
+  text-align: right;
+  background-color: white;
+}
+
+div.nav-links{
+  padding-right: 50px;
+  background-color: white;
+}
+
+img.icon{
+  object-fit: cover;
+  position: absolute;
+  right: 50px;
+  width: 25px;
+  height: 25px;
+  margin-left: -15px;
+}
+
+img.hamburger{
+  object-fit: cover;
+  position: absolute;
+  right: 100px;
+  width: 25px;
+  height: 25px;
+  margin-left: -15px;
+}
+
+a{
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  color: black;
+  opacity: 0.8;
+  text-decoration: none;
+  padding-right: 50px;
+}
+
+a.navbar{
+  height: 40px;
+}
+
+a.theme{
+  position: absolute;
+  font-size: 15px;
+  float: left;
+  padding-left: 68px;
+}
+
+img.theme{
+  padding-top: 5px;
+  width: 17px;
+  height: 17px;
+  float: left;
+  padding-left: 50px;
+}
+
+a:hover{
+  opacity: 0.5;
+}
+
+a:active{
+  opacity: 1;
+  text-decoration: underline;
+}
+
+a:visited{
+  opacity: 0.8;
+}
+
+a:focus{
+  opacity: 1;
+  text-decoration: underline;
+}
+
+a.current{
+  opacity: 1;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+h1{
+  margin-top: 100px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 48px;
+}
+
+iframe{
+  width: 100%;
+  height: 510px;
+  border: 0;
+}
+
+div.body{
+  height: 750px;
+}
+
+div.rightbodytext{
+  width: 35%;
+  float: right;
+  padding-right: 80px;
+  font-size: 20px;
+}
+
+div.leftbodytext{
+  width: 45%;
+  float: left;
+  padding-left: 80px;
+  font-size: 20px;
+  display: inline-block;
+  line-height: 70%;
+}
+
+div.rightbodytextShrink{
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+}
+
+div.leftbodytextShrink{
+  text-align: center;
+  width: 100%;
+  font-size: 20px;
+  line-height: 70%;
+}
+
+
+hr.contact{
+  border-top: 1px;
+  width: 100%;
+  border-color: black;
+  margin-top: -5px;
+}
+
+label{
+  font-size: 20px;
+  font-weight: bolder;
+  display: block;
+}
+
+input{
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  font-family: "Garamond", Georgia, serif;
+  width: 450px;
+  height: 30px;
+}
+
+textarea{
+  margin-top: 15px;
+  font-size: 20px;
+  font-family: "Garamond", Georgia, serif;
+  width: 458px;
+  height: 30px;
+  padding-bottom: 220px;
+  box-sizing: border-box;
+  resize: none;
+  overflow: hidden;
+}
+
+div.submitbutton{
+  width: 100%;
+  text-align: center;
+}
+
+button{
+  margin-top: 30px;
+  font-size: 25px;
+  width: 130px;
+  height: 40px;
+  font-family: "Garamond", Georgia, serif;
+  border-radius: 20px;
+  border-width: 1.5px;
+  border-style: solid;
+  border-color: black;
+  background: rgba(255,255,255);
+  text-align: center;
+}
+
+button:hover{
+  opacity: 0.5;
+}
+
+button:active{
+  opacity: 1;
+  text-decoration: underline;
+}
+
+button:focus{
+  opacity: 1;
+  text-decoration: underline;
+}
+
+button:visited{
+  opacity: 0.8;
+}
+
+footer{
+  width: 100%;
+  color: white;
+  height: 270px;
+  background-color: #333333;
+}
+
+hr.footer{
+  margin-top: -1px;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+h3{
+  font-size: 28px;
+  margin-bottom: 4px;
+}
+
+h3.contact{
+  margin-top: 40px;
+}
+
+h3.links{
+  margin-bottom: -5px;
+}
+
+hr{
+  float:left;
+  border-top: 1px;
+  width: 100px;
+  border-color: white;
+}
+
+div[class^="footer"]{
+  float: left;
+  width: 30%;
+  padding-left: 119px;
+  padding-top: 3px;
+}
+
+div[class*="links"]{
+  float: right;
+  width: 30%;
+}
+
+div[class*="contact"]{
+  line-height: 50%;
+}
+
+a.footer{
+  line-height: 180%;
+  color: white;
+  font-size: 16px;
+}

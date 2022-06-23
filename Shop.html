@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" type="text/css" href="Shop.css">
+    <meta charset="utf-8">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <script src="layout.js"></script>
+    <script src="mode.js"></script>
+    <script src="shops.js"></script>
+    <title>Napa Photography</title>
+  </head>
+  <body>
+    <div id = "overlay">
+      <div class="overlayContainer">
+        <img id = "adsOverlay" class="overlay" src="pics/adsOverlay.png" alt="Free delivery within 2 km template from https://www.canva.com/"  title="Free Delivery">
+      </div>
+    </div>
+    <div class="header">
+      <nav class="header">
+        <img id="Dark" class="theme linkIcon" src="pics/moon.png" alt="moon icon from https://www.flaticon.com/">
+        <img id="Light" class="theme linkIcon" src="pics/filled_moon.png" alt="moon icon icon from https://www.flaticon.com/">
+        <div class = "nav-links">
+          <a href="Home.html" class="navbar other">Home</a>
+          <a href="About.html" class="navbar other" >About me</a>
+          <a href="Landscapes.html" class="navbar other">Landscape</a>
+          <a href="Portraits.html" class="navbar other">Portrait</a>
+          <a href="Shop.html" class="navbar current">Shop</a>
+          <a href="Contact.html" class="navbar other">Contact me</a>
+        </div>
+        <img  class="hamburger linkIcon" src="pics/hamburger.png" alt="hamburger icon from https://commons.wikimedia.org/wiki/File:Hamburger_icon.svg">
+        <img  class="icon linkIcon" src="pics/shopping-cart.png" alt="shopping cart icon from https://www.flaticon.com/">
+        <p class="numCart"></p>
+      </nav>
+    </div>
+
+    <h1 class="titletext">Shop</h1>
+    <div class="body">
+
+      <div class = "itemsContainer">
+        <img id = "photocards" src="pics/photocardspreview.jpeg" alt="postcards preview" title="postcards preview" class = "imagePreview">
+        <div class="itemstitle">
+          <h2>Landscapes Postcard Set</h2>
+        </div>
+        <div class= "description">
+          <p>£3.99</p>
+          <p class="itemdescription">Postcards set consists of 4 landscape photos: Wengen, Blue Sky, Jungfraujoch, and Grindelwald.</p>
+          <ul>
+            <li>6"x4"</li>
+            <li>Matted cover paper</li>
+          </ul>
+        </div>
+        <div class="button">
+          <div class="amount">
+            <label > Quantity:
+              <select id="itemSelectionCard">
+                <option value="1">1</option>
+              </select>
+            </label>
+          </div>
+          <button id = "cardAdd" class="additems">add to cart</button>
+        </div>
+      </div>
+
+      <div class = "itemsContainer">
+        <img id = "photobook" src="pics/photobookpreview.jpeg" alt="photobook preview" title="photobook preview"  class = "imagePreview">
+        <div class="itemstitle">
+          <h2>'The Beauty of Nature' Square Travel Book</h2>
+        </div>
+        <div class="description">
+          <p>£18.99</p>
+          <p class="itemdescription">Travel book consists of our landscape collections</p>
+          <ul>
+            <li>8.5"x8.5"</li>
+            <li>Hard cover</li>
+            <li>Laser printing</li>
+          </ul>
+        </div>
+        <div class="button">
+          <div class="amount">
+            <label > Quantity:
+              <select id="itemSelectionBook">
+                <option value="1">1</option>
+              </select>
+            </label>
+          </div>
+          <button id = "bookAdd" class="additems">add to cart</button>
+        </div>
+      </div>
+
+      <div class = "itemsContainer">
+        <div class = "itemsDes">
+          <img id = "calendar" src="pics/calendarpreview.jpeg" alt="calendar preview" title="calendar preview"  class = "imagePreview">
+          <div class="itemstitle">
+            <h2 >2022 Wall Calendar</h2>
+          </div>
+          <div class="description">
+            <p>£6.99</p>
+            <p class="itemdescription">2022 Wall Calendar with photos from our landscape collections.</p>
+            <ul>
+              <li>11"x8.5"</li>
+              <li>Matted cover paper</li>
+            </ul>
+          </div>
+          <div class="button">
+            <div class="amount">
+              <label > Quantity:
+                <select id="itemSelectionCalendar">
+                  <option value="1">1</option>
+                </select>
+              </label>
+            </div>
+            <button id = "calendarAdd" class="additems">add to cart</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <hr class="footer"/>
+    <footer>
+        <div class="footercontactname">
+          <h3 class="contact">Contact</h3>
+          <hr />
+          <br />
+          <p>Napa Photography</p>
+          <p>+66 92 516 7676</p>
+          <br />
+          <p>254 Phayathai Road</p>
+          <p>Pathumwan, Bangkok</p>
+          <p>10330</p>
+          <p>Thailand</p>
+        </div>
+        <div class="footerlinks">
+          <h3 class="links">Links</h3>
+          <hr />
+          <br />
+          <a href="About.html" class="footer">About me</a> <br />
+          <a href="Landscape.html" class="footer">Landscape</a> <br />
+          <a href="Portrait.html" class="footer">Portrait</a> <br />
+          <a href="Shop.html" class="footer">Shop</a> <br />
+          <a href="Contact.html" class="footer">Contact me</a>
+        </div>
+    </footer>
+  </body>
+</html>
